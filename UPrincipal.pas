@@ -1,0 +1,114 @@
+unit UPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    btnExemplo01: TButton;
+    btnAtividade01: TButton;
+    btnExemplo02: TButton;
+    btnAtividade02: TButton;
+    btnAtividade26: TButton;
+    btnAtividade27: TButton;
+    btnAtividade28: TButton;
+    btnAtividade29: TButton;
+    btnExemplo3: TButton;
+    btnAtividade30: TButton;
+    btnAtividade47: TButton;
+    btnAtividade48: TButton;
+    procedure btnExemplo01Click(Sender: TObject);
+    procedure btnAtividade01Click(Sender: TObject);
+    procedure btnExemplo02Click(Sender: TObject);
+    procedure btnAtividade02Click(Sender: TObject);
+    procedure btnAtividade26Click(Sender: TObject);
+    procedure btnAtividade27Click(Sender: TObject);
+    procedure btnAtividade28Click(Sender: TObject);
+    procedure btnAtividade29Click(Sender: TObject);
+    procedure btnExemplo3Click(Sender: TObject);
+    procedure btnAtividade30Click(Sender: TObject);
+    procedure btnAtividade47Click(Sender: TObject);
+    procedure btnAtividade48Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses UExemplo01, UAtividade01, UExemplo02, UAtividade02, UAtividade26,
+  UAtividade27, UAtividadeMensagem, UAtividadeMensagens, UAtividade28,
+  UAtividade30, UExemplo03, UAtividade31, UAtividade47, UAtividade48;
+
+
+
+procedure TfrmPrincipal.btnAtividade01Click(Sender: TObject);
+begin
+  frmAtividade01.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade02Click(Sender: TObject);
+begin
+  frmAtividade02.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade26Click(Sender: TObject);
+begin
+ frmAtividade26.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade27Click(Sender: TObject);
+begin
+   frmAtividade27.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnExemplo01Click(Sender: TObject);
+begin
+  frmExemplo01.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnExemplo02Click(Sender: TObject);
+begin
+  frmExemplo02.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnExemplo3Click(Sender: TObject);
+begin
+ frmExemplo24.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade28Click(Sender: TObject);
+begin
+   frmAtividadeLogin.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade29Click(Sender: TObject);
+begin
+ frmAtividadeSalario.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade30Click(Sender: TObject);
+begin
+ frmAtividade31.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade47Click(Sender: TObject);
+begin
+ frmAtividade47.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade48Click(Sender: TObject);
+begin
+frmAtividade48.ShowModal;
+end;
+
+end.
