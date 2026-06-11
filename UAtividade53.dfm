@@ -1,16 +1,16 @@
-﻿object frmCadastro: TfrmCadastro
+﻿object frmAtiviade53: TfrmAtiviade53
   Left = 0
   Top = 0
-  Caption = 'Cadastrar'
-  ClientHeight = 395
-  ClientWidth = 728
+  Caption = 'Atividade53'
+  ClientHeight = 441
+  ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
   Font.Style = []
-  TextHeight = 13
+  TextHeight = 15
   object lblNome: TLabel
     Left = 32
     Top = 24
@@ -175,7 +175,7 @@
     end
   end
   object mmoRegistros: TMemo
-    Left = 320
+    Left = 263
     Top = 16
     Width = 361
     Height = 320

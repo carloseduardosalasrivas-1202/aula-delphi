@@ -1,4 +1,4 @@
-unit Ucomponentes;
+unit UAtividade53;
 
 interface
 
@@ -7,11 +7,11 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TfrmCadastro = class(TForm)
-    edtNome: TEdit;
-    edtEndereco: TEdit;
+  TfrmAtiviade53 = class(TForm)
     lblNome: TLabel;
     lblEndereço: TLabel;
+    edtNome: TEdit;
+    edtEndereco: TEdit;
     gpbSexo: TGroupBox;
     rbtMasc: TRadioButton;
     rbtFem: TRadioButton;
@@ -28,19 +28,15 @@ type
     btnLimpar: TButton;
   private
     { Private declarations }
-    nRegistro : Integer;
-
   public
     { Public declarations }
   end;
 
 var
-  frmCadastro: TfrmCadastro;
+  frmAtiviade53: TfrmAtiviade53;
 
 implementation
 
 {$R *.dfm}
-
-uses USexo, UCidade;
 
 end.
