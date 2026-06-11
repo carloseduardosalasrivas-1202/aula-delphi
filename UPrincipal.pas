@@ -25,6 +25,7 @@ type
     btnAtividade51: TButton;
     btnAtividade52: TButton;
     btnAtividade53: TButton;
+    btnAtividade54: TButton;
     procedure btnExemplo01Click(Sender: TObject);
     procedure btnAtividade01Click(Sender: TObject);
     procedure btnExemplo02Click(Sender: TObject);
